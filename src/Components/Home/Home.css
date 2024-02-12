@@ -1,0 +1,507 @@
+.box1 {
+  width: 100vw; /* Covering full viewport width */
+  height: 89vh; /* Covering 56% of viewport height */
+  background-image: url("../assests/section-hero.png"); /* Background image path */
+  background-repeat: no-repeat; /* Don't repeat the background image */
+  background-size: cover; /* Cover the entire container */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  height: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.layer .content span {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.layer .content p {
+  color: white;
+  width: 35%;
+  height: 20%;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.layer .content img {
+  width: 320px;
+}
+
+.content a {
+  width: 120px;
+  height: 36px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background-color: #8ac92a;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.box2 {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 .sub-content1 {
+  width: 80%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box2 .sub-content1 span1 {
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.box2 .sub-content1 span2 {
+  font-size: 32px;
+  color: #000;
+  font-weight: 800;
+}
+.box2 .sub-content1 span2 span3 {
+  color: #8ac92a;
+}
+.box2 .sub-content1 p {
+  font-size: 16px;
+  color: #808080;
+  font-weight: 500;
+}
+
+.box2 .sub-content2 {
+  width: 70%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box2 .sub-content2 .card {
+  width: 220px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.box2 .sub-content2 .card svg {
+  color: #8ac92a;
+  font-size: 35px;
+  padding-left: 20px;
+  /* padding-bottom: 20px; */
+  overflow: hidden;
+}
+
+.box2 .sub-content2 .card span1 {
+  text-transform: uppercase;
+  color: #1a1a1a;
+  font-size: 20;
+  font-weight: 700;
+}
+
+.box2 .sub-content2 .card span2 {
+  width: 90%;
+  font-size: 14px;
+  color: #808080;
+  text-align: left;
+  /* padding-top: 20px; */
+}
+
+.box3 {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box3 .sub-content1 {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box3 .sub-content1 span1 {
+  color: #1a1a1a;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.box3 .sub-content1 span1 span2 {
+  color: #8ac92a;
+}
+.box3 .sub-content1 p {
+  font-size: 16px;
+  color: #808080;
+  font-weight: 400;
+}
+
+.box3 .sub-content2 {
+  width: 80%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(172, 224, 94);
+  background: linear-gradient(
+    180deg,
+    rgba(172, 224, 94, 1) 0%,
+    rgba(101, 166, 3, 1) 100%
+  );
+  overflow: hidden;
+}
+
+.box3 .sub-content2 img {
+  width: 700px;
+}
+
+.box3 .sub-content2 .content {
+  width: 45%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.box3 .sub-content2 .content span {
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+}
+
+.box3 .sub-content2 .content span1 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+.box3 .sub-content2 .content p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.box3 .sub-content2 .content a {
+  border: solid white 2px;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.box4 {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 120px;
+}
+
+.box4 .card {
+  width: 38%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box4 .card .img {
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box4 .card .content {
+  width: 55%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0 20px 0 20px;
+}
+.box4 .card .content span1 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.box4 .card .content span2 {
+  font-size: 14px;
+  color: #65a603;
+  font-weight: 500;
+}
+.box4 .card .content span3 {
+  font-size: 14px;
+  color: #808080;
+  font-weight: 500;
+}
+.box4 .card .content p {
+  font-size: 14px;
+  color: #808080;
+  font-weight: 500;
+  text-align: justify;
+}
+.box4 .card .content a {
+  text-transform: uppercase;
+}
+
+.box5 {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box5 .divison {
+  width: 85%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box5 .divison .sub-divison1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.box5 .divison .sub-divison2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.box5 .divison .sub-divison1 span {
+  color: #1a1a1a;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.box5 .divison .sub-divison1 span span1 {
+  color: #8ac92a;
+}
+.box5 .divison .sub-divison1 span2 {
+  font-size: 16px;
+  color: #808080;
+  font-weight: 400;
+}
+.box5 .divison .sub-divison2 a {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #999999 2px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.box5 .divison1 {
+  width: 85%;
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.box5 .divison1 .card {
+  width: 23%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.box5 .divison1 .card .img {
+  width: 100%;
+  height: 45%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box5 .divison1 .card .content {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.box5 .divison1 .card .content span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-transform: uppercase;
+}
+.box5 .divison1 .card .content span1 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #65a603;
+}
+.box5 .divison1 .card .content span2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #808080;
+}
+.box5 .divison1 .card .content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  text-align: justify;
+  padding-right: 20px;
+}
+.box5 .divison1 .card .content a {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: solid #999999 2px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-transform: uppercase;
+}
+
+.box6 {
+  width: 100vw;
+  height: 52vh;
+  background-image: url("../assests/container.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box6 .layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box6 .layer .content {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box6 .layer .content span {
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.box6 .layer .content span span1 {
+  color: #8ac92a;
+}
+.box6 .layer .content span2 {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+}
+
+.box6 .layer .content1 {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box6 .layer .content1 .sub-box{
+  width: 40%;
+  height: 30%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(34px);
+  backdrop-filter: drop-shadow(0px 5px 8px rgb(0, 0, 0, 0.25));
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+}
+.box6 .layer .content1 .sub-box .circle{
+background-color: #C1E58A;
+width: 50px;
+height: 50px;
+border-radius: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box6 .layer .content1 .sub-box .circle{
+  font-size: 24px;
+  color: black;
+  font-weight: 800;
+}
+.box6 .layer .content1 .sub-box .option{
+  font-size: 20px;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
