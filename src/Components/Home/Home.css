@@ -185,6 +185,9 @@
     rgba(101, 166, 3, 1) 100%
   );
   overflow: hidden;
+  border-radius: 8px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .box3 .sub-content2 img {
@@ -244,6 +247,9 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 8px;
 }
 
 .box4 .card .img {
@@ -256,7 +262,7 @@
 }
 .box4 .card .content {
   width: 55%;
-  height: 100%;
+  height: 96%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -367,6 +373,10 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .box5 .divison1 .card .img {
@@ -384,6 +394,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+  padding-left: 10px;
 }
 .box5 .divison1 .card .content span {
   font-size: 24px;
@@ -471,7 +482,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.box6 .layer .content1 .sub-box{
+.box6 .layer .content1 .sub-box {
   width: 40%;
   height: 30%;
   border-radius: 10px;
@@ -483,25 +494,215 @@
   align-items: center;
   padding-left: 20px;
 }
-.box6 .layer .content1 .sub-box .circle{
-background-color: #C1E58A;
-width: 50px;
-height: 50px;
-border-radius: 120px;
-display: flex;
-justify-content: center;
-align-items: center;
+.box6 .layer .content1 .sub-box .circle {
+  background-color: #c1e58a;
+  width: 50px;
+  height: 50px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.box6 .layer .content1 .sub-box .circle{
+.box6 .layer .content1 .sub-box .circle {
   font-size: 24px;
   color: black;
   font-weight: 800;
 }
-.box6 .layer .content1 .sub-box .option{
+.box6 .layer .content1 .sub-box .option {
   font-size: 20px;
   color: white;
   font-weight: 800;
   text-transform: uppercase;
   padding-left: 20px;
+}
+
+.box7 {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box7 .card {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.box7 .img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.box7 .img img {
+  height: 100%;
+}
+
+.box7 .content {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  overflow: hidden;
+  padding-left: 20px;
+}
+.box7 .content span {
+  color: #1a1a1a;
+  font-size: 32px;
+  font-weight: 800;
+}
+.box7 .content span span1 {
+  color: #8ac92a;
+}
+.box7 .content span span3 {
+  font-size: 20px;
+}
+.box7 .content span2 {
+  font-size: 64px;
+  color: #8ac92a;
+}
+.box7 .content p {
+  width: 90%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  text-align: justify;
+}
+.box7 .content a {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box8 {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+.box8 .sub-content1 {
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box8 .sub-content1 span {
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #1a1a1a;
+}
+.box8 .sub-content1 span span1 {
+  color: #8ac92a;
+}
+
+.box8 .sub-content2 {
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box8 .sub-content2 .card {
+  width: 33.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box8 .sub-content2 .card .img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  outline: solid 3.8px #65a603;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.box8 .sub-content2 .card .img img {
+  width: 120px;
+}
+
+.box8 .sub-content2 .card span {
+  text-align: center;
+  width: 85%;
+  font-size: 14px;
+  color: #1a1a1a;
+  font-style: italic;
+}
+
+.box8 .sub-content2 .card .stroke {
+  width: 120px;
+  height: 5px;
+  background-color: #8ac92a;
+}
+
+.box8 .sub-content2 .card span1 {
+  text-align: center;
+  font-size: 16px;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+.box8 .sub-content3 {
+  width: 80%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.box8 .sub-content3 .arrow1 {
+  width: 25px;
+  height: 25px;
+  border-top-left-radius: 2.5px;
+  border-bottom-left-radius: 2.5px;
+  background-color: #518502;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.box8 .sub-content3 .arrow2 {
+  width: 25px;
+  height: 25px;
+  border-top-right-radius: 2.5px;
+  border-bottom-right-radius: 2.5px;
+  background-color: #8ac92a;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
 }

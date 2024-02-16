@@ -8,8 +8,12 @@ import img3 from '../assests/image3.png';
 import img4 from '../assests/image4.png';
 import img5 from '../assests/image5.png';
 import img6 from '../assests/image6.png';
+import profile from "../assests/profile.jpg"
+import profile1 from "../assests/profile1.jpeg"
 
 import { BsRecycle } from "react-icons/bs";
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
 import './Home.css';
 const Home = () => {
     return (
@@ -181,6 +185,59 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="box7">
+                <div className="card">
+                    <div className="img">
+                        <img src={img5} alt="" />
+                    </div>
+                    <div className="content">
+                        <span>April <span1>22</span1><span3>nd</span3></span>
+                        <span2>Earth Day</span2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                        <a href="/#">learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div className="box8">
+                <div className="sub-content1">
+                    <span>featured <span1>comments</span1></span>
+                </div>
+                <div className="sub-content2">
+                    <div className="card">
+                        <div className="img">
+                            <img src={profile} alt="" />
+                        </div>
+                        <span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.”</span>
+                        <div className="stroke"></div>
+                        <span1>Rittick Sinha</span1>
+                    </div>
+                    <div className="card">
+                        <div className="img">
+                            <img src={profile} alt="" />
+                        </div>
+                        <span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.”</span>
+                        <div className="stroke"></div>
+                        <span1>Rittick Sinha</span1>
+                    </div>
+                    <div className="card">
+                        <div className="img">
+                            <img src={profile} alt="" />
+                        </div>
+                        <span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.”</span>
+                        <div className="stroke"></div>
+                        <span1>Rittick Sinha</span1>
+                    </div>
+                </div>
+                <div className="sub-content3">
+                    <div className="arrow1">
+                        <IoIosArrowBack />
+                    </div>
+                    <div className="arrow2">
+                        <IoIosArrowForward />
+                    </div>
+                </div>
+
             </div>
             <Footer />
         </>
