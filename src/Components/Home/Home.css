@@ -1,6 +1,6 @@
 .box1 {
   width: 100vw; /* Covering full viewport width */
-  height: 89vh; /* Covering 56% of viewport height */
+  height: 720px; /* Covering 56% of viewport height */
   background-image: url("../assests/section-hero.png"); /* Background image path */
   background-repeat: no-repeat; /* Don't repeat the background image */
   background-size: cover; /* Cover the entire container */
@@ -36,7 +36,7 @@
 
 .layer .content p {
   color: white;
-  width: 35%;
+  width: 45%;
   height: 20%;
   font-size: 16px;
   font-weight: 500;
@@ -65,7 +65,7 @@
 
 .box2 {
   width: 100vw;
-  height: 80vh;
+  height: 614.4px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -136,12 +136,13 @@
   font-size: 14px;
   color: #808080;
   text-align: left;
+  text-align: justify;
   /* padding-top: 20px; */
 }
 
 .box3 {
   width: 100vw;
-  height: 65vh;
+  height: 482.3px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,14 +189,20 @@
   border-radius: 8px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  position: relative;
 }
 
-.box3 .sub-content2 img {
-  width: 700px;
+.box3 .sub-content2 .img {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box3 .sub-content2 .content {
-  width: 45%;
+  width: 50%;
   height: 100%;
   padding: 15px;
   display: flex;
@@ -232,7 +239,7 @@
 
 .box4 {
   width: 100vw;
-  height: 50vh;
+  height: 398px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -297,7 +304,7 @@
 
 .box5 {
   width: 100vw;
-  height: 85vh;
+  height: 630.7px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -436,7 +443,7 @@
 
 .box6 {
   width: 100vw;
-  height: 52vh;
+  height: 385.84px;
   background-image: url("../assests/container.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -519,7 +526,7 @@
 
 .box7 {
   width: 100vw;
-  height: 70vh;
+  height: 519.4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -591,7 +598,7 @@
 
 .box8 {
   width: 100vw;
-  height: 60vh;
+  height: 445.2px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

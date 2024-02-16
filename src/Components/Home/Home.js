@@ -10,10 +10,12 @@ import img5 from '../assests/image5.png';
 import img6 from '../assests/image6.png';
 import profile from "../assests/profile.jpg"
 import profile1 from "../assests/profile1.jpeg"
-
-import { BsRecycle } from "react-icons/bs";
+import { MdNightlife } from "react-icons/md";
+import { SiYourtraveldottv } from "react-icons/si";
+import { IoFastFood } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
+import { GrTechnology } from "react-icons/gr";
 import './Home.css';
 const Home = () => {
     return (
@@ -24,7 +26,7 @@ const Home = () => {
                     <div className="content">
                         <span>Blog</span>
                         <img src={logo} alt="" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Explore our dynamic blog for captivating content on a variety of topics. From trends to tips and inspiring stories, join our community as we learn and share together!</p>
                         <a href='/#'>LEARN MORE</a>
                     </div>
                 </div>
@@ -33,38 +35,40 @@ const Home = () => {
                 <div className="sub-content1">
                     <span1>Our Mission</span1>
                     <span2>WHAT WE ARE <span3>WORKING</span3> FOR</span2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                    <p>Our mission is to inform, inspire, and connect through engaging content on our blog. Join us as we share stories, insights, and ideas to enrich your journey. </p>
                 </div>
                 <div className="sub-content2">
                     <div className="card">
-                        <BsRecycle />
-                        <span1>Recycling</span1>
-                        <span2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </span2>
+                        <MdNightlife />
+                        <span1>Personal Blogs</span1>
+                        <span2>These are typically reflections of the author's personal experiences, thoughts, and opinions. </span2>
                     </div>
                     <div className="card">
-                        <BsRecycle />
-                        <span1>Eco System</span1>
-                        <span2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </span2>
+                        <SiYourtraveldottv />
+                        <span1>Travel Blogs</span1>
+                        <span2>Travel blogs inspire and inform readers about destinations worldwide with experiences, tips, itineraries, and guides.</span2>
                     </div>
                     <div className="card">
-                        <BsRecycle />
-                        <span1>Water Refine</span1>
-                        <span2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </span2>
+                        <IoFastFood />
+                        <span1>Food Blogs</span1>
+                        <span2>Food blogs share recipes, cooking tips, and restaurant reviews for food enthusiasts and home cooks.</span2>
                     </div>
                     <div className="card">
-                        <BsRecycle />
-                        <span1>Tourism</span1>
-                        <span2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </span2>
+                        <GrTechnology />
+                        <span1>Tech Blogs</span1>
+                        <span2>Tech blogs offer insights on technology products, services, and trends for enthusiasts and professionals.</span2>
                     </div>
                 </div>
             </div>
             <div className="box3">
                 <div className="sub-content1">
                     <span1>latest <span2>post</span2></span1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                    <p>Our latest blog post explores sustainable travel, featuring eco-friendly destinations and tips to reduce your carbon footprint while exploring the world.</p>
                 </div>
                 <div className="sub-content2">
-                    <img src={img1} alt="" />
+                    <div className="img">
+                        <img src={img1} alt="" />
+                    </div>
                     <div className="content">
                         <span>Lorem ipsum dolor sit amet</span>
                         <span1>September 7, 2023</span1>
