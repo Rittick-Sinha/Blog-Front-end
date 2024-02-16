@@ -179,7 +179,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(172, 224, 94);
   background: linear-gradient(
     180deg,
     rgba(172, 224, 94, 1) 0%,
@@ -190,6 +189,10 @@
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   position: relative;
+  transition: transform 0.2s;
+}
+.box3 .sub-content2:hover {
+  transform: translate(0px, -7px);
 }
 
 .box3 .sub-content2 .img {
@@ -200,6 +203,12 @@
   justify-content: center;
   align-items: center;
 }
+/* .box3 .sub-content2 .img img{
+  transition: transform 0.2s;
+}
+.box3 .sub-content2 .img img:hover{
+  transform: scale(0.95);
+} */
 
 .box3 .sub-content2 .content {
   width: 50%;
@@ -241,14 +250,22 @@
   width: 100vw;
   height: 398px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
   padding-bottom: 120px;
 }
+.box4 .sub-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
 
 .box4 .card {
-  width: 38%;
+  width: 35%;
   height: 60%;
   display: flex;
   justify-content: center;
@@ -257,6 +274,11 @@
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.box4 .card:hover {
+  transform: translate(0px, -6px);
 }
 
 .box4 .card .img {
@@ -293,9 +315,9 @@
   font-weight: 500;
 }
 .box4 .card .content p {
-  font-size: 14px;
+  font-size: 13px;
   color: #808080;
-  font-weight: 500;
+  font-weight: 300;
   text-align: justify;
 }
 .box4 .card .content a {
@@ -384,6 +406,11 @@
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   border-radius: 8px;
   overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.box5 .divison1 .card:hover {
+  transform: translate(0px, -8px);
 }
 
 .box5 .divison1 .card .img {
@@ -493,14 +520,21 @@
   width: 40%;
   height: 30%;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(34px);
-  backdrop-filter: drop-shadow(0px 5px 8px rgb(0, 0, 0, 0.25));
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-left: 20px;
+  transition: transform 0.2s;
 }
+
+.box6 .layer .content1 .sub-box:hover {
+  transform: translate(0, -5px);
+}
+
 .box6 .layer .content1 .sub-box .circle {
   background-color: #c1e58a;
   width: 50px;
@@ -543,6 +577,11 @@
   border-radius: 8px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    transition: transform 0.2s;
+}
+
+.box7 .card:hover{
+transform: translate(0,-7px);
 }
 
 .box7 .img {

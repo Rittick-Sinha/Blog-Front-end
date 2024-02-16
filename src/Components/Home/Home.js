@@ -78,28 +78,30 @@ const Home = () => {
                 </div>
             </div>
             <div className="box4">
-                <div className="card">
-                    <div className="img">
-                        <img src={img2} alt="" />
+                <div className="sub-box">
+                    <div className="card">
+                        <div className="img">
+                            <img src={img2} alt="" />
+                        </div>
+                        <div className="content">
+                            <span1>Lorem ipsum dolor sit amet</span1>
+                            <span2>Environment, Go green</span2>
+                            <span3>September 7, 2023</span3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <a href="/#">Read more</a>
+                        </div>
                     </div>
-                    <div className="content">
-                        <span1>Lorem ipsum dolor sit amet</span1>
-                        <span2>Environment, Go green</span2>
-                        <span3>September 7, 2023</span3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                        <a href="/#">Read more</a>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="img">
-                        <img src={img3} alt="" />
-                    </div>
-                    <div className="content">
-                        <span1>Lorem ipsum dolor sit amet</span1>
-                        <span2>Environment, Go green</span2>
-                        <span3>September 7, 2023</span3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                        <a href="/#">Read more</a>
+                    <div className="card">
+                        <div className="img">
+                            <img src={img3} alt="" />
+                        </div>
+                        <div className="content">
+                            <span1>Lorem ipsum dolor sit amet</span1>
+                            <span2>Environment, Go green</span2>
+                            <span3>September 7, 2023</span3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <a href="/#">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>
