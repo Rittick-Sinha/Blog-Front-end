@@ -81,27 +81,29 @@ const Home = () => {
             <div className="box4">
                 <div className="sub-box">
                     <div className="card">
-                        <div className="img">
-                            <img src={img2} alt="" />
-                        </div>
-                        <div className="content">
-                            <span1>Lorem ipsum dolor sit amet</span1>
-                            <span2>Environment, Go green</span2>
-                            <span3>September 7, 2023</span3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                            <a href="/#"><span> Read more</span></a>
+                        <div className="sub-card">
+                            <div className="img">
+                                <img src={img4} alt="" />
+                            </div>
+                            <div className="content">
+                                <span>Blog Title</span>
+                                <span2>September 7, 2023</span2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <a href="/#"><span>read more</span></a>
+                            </div>
                         </div>
                     </div>
                     <div className="card">
-                        <div className="img">
-                            <img src={img3} alt="" />
-                        </div>
-                        <div className="content">
-                            <span1>Lorem ipsum dolor sit amet</span1>
-                            <span2>Environment, Go green</span2>
-                            <span3>September 7, 2023</span3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                            <a href="/#"><span> Read more</span></a>
+                        <div className="sub-card">
+                            <div className="img">
+                                <img src={img4} alt="" />
+                            </div>
+                            <div className="content">
+                                <span>Blog Title</span>
+                                <span2>September 7, 2023</span2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <a href="/#"><span>read more</span></a>
+                            </div>
                         </div>
                     </div>
                 </div>

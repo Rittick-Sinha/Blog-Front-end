@@ -261,12 +261,12 @@
 
 .box4 {
   width: 100vw;
-  height: 398px;
+  height:300px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding-bottom: 120px;
+
 }
 .box4 .sub-box {
   width: 80%;
@@ -276,100 +276,103 @@
   align-items: center;
   overflow: hidden;
   position: relative;
+  padding: 0px 20px 0px 20px;
 }
-
-.box4 .card {
-  width: 49%;
-  height: 60%;
+.box4 .sub-box .card {
+  width: 600px;
+  height: 238.8px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+  border-radius: 20px;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.074);
-  border: 1px solid rgba(255, 255, 255, 0.222);
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-  border-radius: 0.7rem;
-  transition: all ease 0.3s;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
 }
 
-.box4 .card:hover {
-  box-shadow: 0px 0px 20px 1px #ffbb763f;
-  border: 1px solid rgba(255, 255, 255, 0.7);
+.box4 .sub-box .card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.6);
 }
 
-.box4 .card .img {
-  width: 45%;
+.box4 .sub-box .card .sub-card {
+  width: 600px;
+  height: 238.8px;
+  border-radius: 10px;
+  background-color: #1d1724;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.box4 .sub-box .card .sub-card:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+.box4 .sub-box .card .sub-card .img {
+  width: 40%;
   height: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.box4 .card .content {
-  width: 55%;
-  height: 96%;
-  overflow: hidden;
+.box4 .sub-box .card .sub-card .content {
+  width: 60%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  padding: 0 20px 0 20px;
+  padding-left: 20px;
 }
-.box4 .card .content span1 {
-  color: #fdb25d;
+.box4 .sub-box .card .sub-card .content span {
   font-size: 20px;
   font-weight: 700;
+  color: white;
   text-transform: uppercase;
 }
-.box4 .card .content span2 {
-  font-size: 14px;
-  color: #65a603;
-  font-weight: 500;
+
+.box4 .sub-box .card .sub-card .content span2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
 }
-.box4 .card .content span3 {
-  font-size: 14px;
-  color: #808080;
-  font-weight: 500;
-}
-.box4 .card .content p {
+.box4 .sub-box .card .sub-card .content p {
+  width: 90%;
   font-size: 13px;
-  color: #808080;
-  font-weight: 300;
+  font-weight: 400;
+  color: white;
   text-align: justify;
+  padding-right: 20px;
+  overflow: hidden;
 }
-.box4 .card .content a {
-  text-transform: uppercase;
-  background-color: #3d3a4e;
-  border: none;
+.box4 .sub-box .card .sub-card .content a {
+  width: 100px;
+  height: 30px;
   border-radius: 120px;
-  position: relative;
+  background-color: rgba(99, 88, 238, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
   overflow: hidden;
 }
 
-.box4 .card .content a span {
+.box4 .sub-box .card .sub-card .content a span {
   z-index: 1;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
 }
-.box4 .card .content a:hover::before {
+.box4 .sub-box .card .sub-card .content a:hover{
   transform: scaleX(1);
+  background: rgba(150, 93, 233, 1);
 }
-.box4 .card .content a::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(
-    82.3deg,
-    rgba(150, 93, 233, 1) 10.8%,
-    rgba(99, 88, 238, 1) 94.3%
-  );
-  transition: all 0.475s;
-}
+
 
 .box5 {
   width: 100vw;
@@ -539,7 +542,6 @@
   transform: scaleX(1);
   background: rgba(150, 93, 233, 1);
 }
-
 
 .box6 {
   width: 100vw;
