@@ -8,9 +8,7 @@ import img2 from '../assests/image2.png';
 import img3 from '../assests/image3.png';
 import img4 from '../assests/image4.png';
 import img5 from '../assests/image5.png';
-import img6 from '../assests/image6.png';
 import profile from "../assests/profile.jpg"
-import profile1 from "../assests/profile1.jpeg"
 import { MdNightlife } from "react-icons/md";
 import { SiYourtraveldottv } from "react-icons/si";
 import { IoFastFood } from "react-icons/io5";
@@ -26,7 +24,7 @@ const Home = () => {
                 <div className="content">
                     <span>Blog</span>
                     <img src={logo} alt="" />
-                    <p>Explore our dynamic blog for captivating content on a variety of topics. From trends to tips and inspiring stories, join our community as we learn and share together!</p>
+                    <p>Welcome to our new blog website, your go-to for insightful articles, engaging stories, and valuable resources. Dive into a world where knowledge meets creativity, where curiosity is fueled, and inspiration awaits at every click. Join our community of readers, thinkers, and enthusiasts as we explore, learn, and grow together.</p>
                     <a href='/#'>LEARN MORE</a>
                 </div>
                 <div className="layer">
@@ -83,7 +81,7 @@ const Home = () => {
                     <div className="card">
                         <div className="sub-card">
                             <div className="img">
-                                <img src={img4} alt="" />
+                                <img src={img2} alt="" />
                             </div>
                             <div className="content">
                                 <span>Blog Title</span>
@@ -96,7 +94,7 @@ const Home = () => {
                     <div className="card">
                         <div className="sub-card">
                             <div className="img">
-                                <img src={img4} alt="" />
+                                <img src={img3} alt="" />
                             </div>
                             <div className="content">
                                 <span>Blog Title</span>
@@ -208,19 +206,19 @@ const Home = () => {
                     <div className="content1">
                         <div className="sub-box">
                             <div className="circle"><span>A</span></div>
-                            <div className="option">Lorem ipsum</div>
+                            <div className="option">Lorem ipsum dolor sit amet consectetur.</div>
                         </div>
                         <div className="sub-box">
                             <div className="circle"><span>B</span></div>
-                            <div className="option">Lorem ipsum</div>
+                            <div className="option">Lorem ipsum dolor sit amet consectetur.</div>
                         </div>
                         <div className="sub-box">
                             <div className="circle"><span>C</span></div>
-                            <div className="option">Lorem ipsum</div>
+                            <div className="option">Lorem ipsum dolor sit amet consectetur.</div>
                         </div>
                         <div className="sub-box">
                             <div className="circle"><span>D</span></div>
-                            <div className="option">Lorem ipsum</div>
+                            <div className="option">Lorem ipsum dolor sit amet consectetur.</div>
                         </div>
                     </div>
                 </div>
