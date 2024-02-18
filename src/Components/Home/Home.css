@@ -248,8 +248,8 @@
 }
 .box3 .sub-content2 .content span {
   font-size: 32px;
-  font-weight: 900;
-  text-transform: uppercase;
+  font-weight: 800;
+  text-transform: capitalize;
   color: white;
 }
 
@@ -259,7 +259,7 @@
   font-weight: 400;
 }
 .box3 .sub-content2 .content p {
-  color: white;
+  color: #cccccc;
   font-size: 16px;
   font-weight: 400;
 }
@@ -273,7 +273,7 @@
   background-color: rgba(99, 88, 238, 1);
   color: white;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 500;
   overflow: hidden;
   text-transform: uppercase;
   border-radius: 120px;
@@ -354,10 +354,10 @@
   padding-left: 20px;
 }
 .box4 .sub-box .card .sub-card .content span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: white;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .box4 .sub-box .card .sub-card .content span2 {
@@ -367,9 +367,9 @@
 }
 .box4 .sub-box .card .sub-card .content p {
   width: 90%;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 400;
-  color: white;
+  color: #cccccc;
   text-align: justify;
   padding-right: 20px;
   overflow: hidden;
@@ -539,25 +539,20 @@
   align-items: flex-start;
 }
 .box5 .divison1 .card .sub-card .content span {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 700;
   color: white;
-  text-transform: uppercase;
-}
-.box5 .divison1 .card .sub-card .content span1 {
-  font-size: 14px;
-  font-weight: 400;
-  color: white;
+  text-transform: capitalize;
 }
 .box5 .divison1 .card .sub-card .content span2 {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
-  color: white;
+  color: #fff;
 }
 .box5 .divison1 .card .sub-card .content p {
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 400;
-  color: white;
+  color: #cccccc;
   text-align: justify;
 }
 .box5 .divison1 .card .sub-card .content a {
@@ -626,9 +621,9 @@
   color: #ffb441;
 }
 .box6 .layer .content span2 {
-  font-size: 16px;
+  font-size: 18px;
   color: white;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .box6 .layer .content1 {
@@ -675,7 +670,7 @@
 }
 .box6 .layer .content1 .sub-box .option {
   width: 260px;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
   font-weight: 500;
   text-transform: capitalize;

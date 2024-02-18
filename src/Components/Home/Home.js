@@ -2,11 +2,16 @@ import React from 'react';
 import NavBar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import logo from '../assests/brand-logo-white.png';
-import img from '../assests/img-01.png';
-import img1 from '../assests/image1.png';
-import img2 from '../assests/image2.png';
-import img3 from '../assests/image3.png';
-import img4 from '../assests/image4.png';
+import img from '../assests/img1-01.png';
+import img1 from '../assests/quantum-computing.jpg';
+import img2 from '../assests/food.png';
+import img3 from '../assests/travel.jpg';
+import mind from '../assests/mind.jpg';
+import magic from '../assests/magic.jpg';
+import selfcare from '../assests/selfcare.jpg';
+import financial from '../assests/financial.jpg';
+import productivity from '../assests/productivity.jpg';
+import eco from '../assests/eco.jpg';
 import img5 from '../assests/image5.png';
 import profile from "../assests/profile.jpg"
 import { MdNightlife } from "react-icons/md";
@@ -69,9 +74,9 @@ const Home = () => {
                         <img src={img1} alt="" />
                     </div>
                     <div className="content">
-                        <span>Lorem ipsum dolor sit amet</span>
-                        <span1>September 7, 2023</span1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                        <span>The Rise of Quantum Computing: Unlocking the Future</span>
+                        <span1>Feburary 18, 2024</span1>
+                        <p>Explore how quantum computing is revolutionizing industries and reshaping our understanding of computational power.</p>
                         <a href="/#">read more</a>
                     </div>
                 </div>
@@ -84,9 +89,9 @@ const Home = () => {
                                 <img src={img2} alt="" />
                             </div>
                             <div className="content">
-                                <span>Blog Title</span>
-                                <span2>September 7, 2023</span2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <span>Culinary Crossroads: Exploring the Fusion of Flavors</span>
+                                <span2>January 28, 2024</span2>
+                                <p>Embark on a gastronomic adventure as we delve into the delightful world of fusion cuisine, where cultures collide and flavors unite.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
                         </div>
@@ -97,9 +102,9 @@ const Home = () => {
                                 <img src={img3} alt="" />
                             </div>
                             <div className="content">
-                                <span>Blog Title</span>
-                                <span2>September 7, 2023</span2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <span> Wanderlust Chronicles: Unveiling the Hidden Gems of Southeast Asia</span>
+                                <span2>January 28, 2024</span2>
+                                <p>Embark on a journey of discovery as we uncover the enchanting allure of Southeast Asia's lesser-known destinations.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
                         </div>
@@ -120,12 +125,12 @@ const Home = () => {
                     <div className="card">
                         <div className="sub-card">
                             <div className="img">
-                                <img src={img4} alt="" />
+                                <img src={mind} alt="" />
                             </div>
                             <div className="content">
-                                <span>Blog Title</span>
-                                <span2>September 7, 2023</span2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <span>The Power of Mindfulness: Nurturing Mental Well-being</span>
+                                <span2>December 27, 2023</span2>
+                                <p>Discover the transformative benefits of mindfulness practices and cultivate inner peace in a fast-paced world.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
                         </div>
@@ -133,12 +138,12 @@ const Home = () => {
                     <div className="card">
                         <div className="sub-card">
                             <div className="img">
-                                <img src={img4} alt="" />
+                                <img src={eco} alt="" />
                             </div>
                             <div className="content">
-                                <span>Blog Title</span>
-                                <span2>September 7, 2023</span2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <span>Eco-Friendly Living: Small Changes, Big Impact</span>
+                                <span2>December 27, 2023</span2>
+                                <p>Explore simple yet effective ways to adopt a more sustainable lifestyle and contribute to a greener future.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
                         </div>
@@ -146,12 +151,12 @@ const Home = () => {
                     <div className="card">
                         <div className="sub-card">
                             <div className="img">
-                                <img src={img4} alt="" />
+                                <img src={productivity} alt="" />
                             </div>
                             <div className="content">
-                                <span>Blog Title</span>
-                                <span2>September 7, 2023</span2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <span>Mastering the Art of Productivity: Strategies for Success</span>
+                                <span2>December 27, 2023</span2>
+                                <p>Unlock the secrets to maximizing your productivity and achieving your goals with practical tips and proven techniques.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
                         </div>
@@ -159,12 +164,12 @@ const Home = () => {
                     <div className="card">
                         <div className="sub-card">
                             <div className="img">
-                                <img src={img4} alt="" />
+                                <img src={magic} alt="" />
                             </div>
                             <div className="content">
-                                <span>Blog Title</span>
-                                <span2>September 7, 2023</span2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <span>The Magic of Storytelling: Connecting Through Narrative</span>
+                                <span2>December 26, 2023</span2>
+                                <p>Dive into the world of storytelling and learn how harnessing the power of narrative can foster empathy, understanding, and connection.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
                         </div>
@@ -172,12 +177,12 @@ const Home = () => {
                     <div className="card">
                         <div className="sub-card">
                             <div className="img">
-                                <img src={img4} alt="" />
+                                <img src={financial} alt="" />
                             </div>
                             <div className="content">
-                                <span>Blog Title</span>
-                                <span2>September 7, 2023</span2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <span>Financial Fitness 101: A Guide to Smart Money Management</span>
+                                <span2>December 26, 2023</span2>
+                                <p>Take control of your finances and build a secure future with essential financial literacy tips and strategies.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
                         </div>
@@ -185,12 +190,12 @@ const Home = () => {
                     <div className="card">
                         <div className="sub-card">
                             <div className="img">
-                                <img src={img4} alt="" />
+                                <img src={selfcare} alt="" />
                             </div>
                             <div className="content">
-                                <span>Blog Title</span>
-                                <span2>September 7, 2023</span2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                                <span>Embracing Self-Care: Prioritizing Your Well-being</span>
+                                <span2>December 26, 2023</span2>
+                                <p>Explore the importance of self-care practices and discover meaningful ways to nurture your physical, emotional, and mental health.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
                         </div>
@@ -201,24 +206,24 @@ const Home = () => {
                 <div className="layer">
                     <div className="content">
                         <span>polls <span1>& surveys</span1></span>
-                        <span2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </span2>
+                        <span2>Which TV show are you currently binge-watching?</span2>
                     </div>
                     <div className="content1">
                         <div className="sub-box">
                             <div className="circle"><span>A</span></div>
-                            <div className="option">Lorem ipsum dolor sit amet consectetur.</div>
+                            <div className="option">"Stranger Things"</div>
                         </div>
                         <div className="sub-box">
                             <div className="circle"><span>B</span></div>
-                            <div className="option">Lorem ipsum dolor sit amet consectetur.</div>
+                            <div className="option">"The Crown"</div>
                         </div>
                         <div className="sub-box">
                             <div className="circle"><span>C</span></div>
-                            <div className="option">Lorem ipsum dolor sit amet consectetur.</div>
+                            <div className="option">"The Mandalorian"</div>
                         </div>
                         <div className="sub-box">
                             <div className="circle"><span>D</span></div>
-                            <div className="option">Lorem ipsum dolor sit amet consectetur.</div>
+                            <div className="option">"Bridgerton"</div>
                         </div>
                     </div>
                 </div>
@@ -231,7 +236,7 @@ const Home = () => {
                     <div className="content">
                         <span>April <span1>22</span1><span3>nd</span3></span>
                         <span2>Earth Day</span2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+                        <p>Earth Day, celebrated annually on April 22nd, is a global event promoting environmental awareness and action. It's a day for individuals and communities to come together to engage in activities aimed at protecting and preserving our planet, such as tree planting, cleanups, and educational initiatives.</p>
                         <a href="/#">learn more</a>
                     </div>
                 </div>
@@ -245,7 +250,7 @@ const Home = () => {
                         <div className="img">
                             <img src={profile} alt="" />
                         </div>
-                        <span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.”</span>
+                        <span>"Wow, your blog is incredibly insightful and well-written! I always look forward to reading your posts for inspiration and knowledge."</span>
                         <div className="stroke"></div>
                         <span1>Rittick Sinha</span1>
                     </div>
@@ -253,7 +258,7 @@ const Home = () => {
                         <div className="img">
                             <img src={profile} alt="" />
                         </div>
-                        <span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.”</span>
+                        <span>"Thank you for sharing your expertise through your blog. Your passion for the subject matter truly shines through in every article."</span>
                         <div className="stroke"></div>
                         <span1>Rittick Sinha</span1>
                     </div>
@@ -261,7 +266,7 @@ const Home = () => {
                         <div className="img">
                             <img src={profile} alt="" />
                         </div>
-                        <span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.”</span>
+                        <span>"Your blog has quickly become one of my favorites to follow. I appreciate the variety of topics you cover and the depth of research you put into each post."</span>
                         <div className="stroke"></div>
                         <span1>Rittick Sinha</span1>
                     </div>
