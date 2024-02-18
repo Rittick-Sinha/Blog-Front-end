@@ -90,7 +90,7 @@ const Home = () => {
                             </div>
                             <div className="content">
                                 <span>Culinary Crossroads: Exploring the Fusion of Flavors</span>
-                                <span2>January 28, 2024</span2>
+                                <span2>Feburary 12, 2024</span2>
                                 <p>Embark on a gastronomic adventure as we delve into the delightful world of fusion cuisine, where cultures collide and flavors unite.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
@@ -103,7 +103,7 @@ const Home = () => {
                             </div>
                             <div className="content">
                                 <span> Wanderlust Chronicles: Unveiling the Hidden Gems of Southeast Asia</span>
-                                <span2>January 28, 2024</span2>
+                                <span2>Feburary 10, 2024</span2>
                                 <p>Embark on a journey of discovery as we uncover the enchanting allure of Southeast Asia's lesser-known destinations.</p>
                                 <a href="/#"><span>read more</span></a>
                             </div>
@@ -114,8 +114,8 @@ const Home = () => {
             <div className="box5">
                 <div className="divison">
                     <div className="sub-divison1">
-                        <span>latest <span1>post</span1></span>
-                        <span2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </span2>
+                        <span>Featured <span1>post</span1></span>
+                        <span2>Explore our captivating featured post for insightful perspectives, trending topics, and engaging content that'll keep you hooked!</span2>
                     </div>
                     <div className="sub-divison2">
                         <a href="/#">show more</a>
