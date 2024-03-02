@@ -3,6 +3,8 @@ import blacklogo from '../assests/brand-logo-white.png'
 import { BsInstagram } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+import img1 from "../assests/travel.jpg";
+import img2 from "../assests/food.png";
 import './Footer.css';
 const Footer = () => {
     return (
@@ -33,8 +35,23 @@ const Footer = () => {
                     <div className="footer-header">
                         RECENT POSTS
                     </div>
-                    <div className="footer-content">
-
+                    <div className="card">
+                        <div className="img">
+                            <img src={img2} alt="" />
+                        </div>
+                        <div className="content">
+                            <span>Culinary Crossroads: Exploring the Fusion of Flavors</span>
+                            <span2>Feburary 12, 2024</span2>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="img">
+                            <img src={img1} alt="" />
+                        </div>
+                        <div className="content">
+                            <span> Wanderlust Chronicles: Unveiling the Hidden Gems of Southeast Asia</span>
+                            <span2>Feburary 10, 2024</span2>
+                        </div>
                     </div>
                 </div>
                 <div className="footer-links-4">
