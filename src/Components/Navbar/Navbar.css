@@ -5,7 +5,7 @@
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
-  border-bottom: 4px #FDB25D solid;
+  border-bottom: 4px #fdb25d solid;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -22,7 +22,7 @@
   justify-content: flex-start;
   align-items: center;
 }
-.nav-logo{
+.nav-logo {
   padding-left: 80px;
 }
 
@@ -54,9 +54,13 @@
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
+.nav-list ul li a {
+  text-decoration: none;
+  color: white;
+}
 
 .nav-list ul li:hover {
-  background-color: #FDB25D;
+  background-color: #fdb25d;
   box-shadow: 0 0 20px #6fc5ff50;
   transform: scale(1.05);
 }

@@ -1,0 +1,101 @@
+.error-body {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.error-body .box1 {
+  width: 960px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.error-body .box1 img {
+  width: 500px;
+  animation: wiggleImage 2s ease-in-out infinite alternate;
+}
+@keyframes wiggleImage {
+  0% {
+    transform: rotateZ(-5deg); /* Start rotation */
+    transform: translate(5px, 5px);
+  }
+  100% {
+    transform: rotateZ(5deg); /* End rotation */
+    transform: translate(-15px, -5px);
+  }
+}
+
+.error-body .box2 {
+  width: 960px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: #fff;
+}
+.error-body .box2 .content {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.error-body .box2 .content span2 {
+  font-size: 216px;
+  font-weight: 700;
+}
+.error-body .box2 .content span {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+}
+.error-body .box2 .content span1 {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(253, 178, 93, 1) 0%,
+    rgba(68, 54, 202, 1) 100%
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+.error-body .box2 .content span3 {
+  font-size: 14px;
+  color: #cccccc;
+}
+.error-body .box2 .content a {
+  width: 120px;
+  height: 36px;
+  border-radius: 120px;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  outline: 2px solid #315cfd;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.error-body .box2 .content a:hover {
+  background: #315cfd;
+  color: #fff;
+  font-size: 13px;
+}
