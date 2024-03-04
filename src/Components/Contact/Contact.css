@@ -46,9 +46,10 @@
   color: #fff;
 }
 .contact-body .box1 .sub-box1 .email a {
-  font-size: 16px;
+  font-size: 17px;
   text-decoration: none;
   color: #315cfd;
+  font-weight: 500;
 }
 .contact-body .box1 .sub-box1 .connect {
   width: 240px;
