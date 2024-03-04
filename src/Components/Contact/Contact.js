@@ -13,7 +13,7 @@ const Contact = () => {
                 <div className="box1">
                     <div className="sub-box1">
                         <span>We’d love to
-                            hear from you</span>
+                            hear from you.</span>
                         <div className="email">
                             <span1>Email us</span1>
                             <a href="mailto: sinharittick5@gmail.com">sinharittick5@gmail.com</a>

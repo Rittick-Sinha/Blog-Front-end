@@ -1,4 +1,4 @@
-.box1 {
+.home-body .box1 {
   width: 100vw; /* Covering full viewport width */
   height: 720px; /* Covering 56% of viewport height */
   display: flex; /* Use flexbox for alignment */
@@ -30,7 +30,7 @@
   }
 }
 
-.box1 .content {
+.home-body .box1 .content {
   width: 50%;
   height: 62%;
   display: flex;
