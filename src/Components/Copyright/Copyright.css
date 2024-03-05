@@ -1,0 +1,12 @@
+.copyright-body {
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14.5px;
+  background-color: #1a1a1a;
+}

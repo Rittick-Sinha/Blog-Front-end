@@ -1,5 +1,6 @@
 import React from 'react';
 import blacklogo from '../assests/brand-logo-white.png'
+import Copyright from '../Copyright/Copyright';
 import { BsInstagram } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
@@ -67,6 +68,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <Copyright />
         </>
     );
 }

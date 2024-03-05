@@ -5,6 +5,7 @@ import MovingCard from '../Moving_card/Moving_card';
 import profile from '../assests/profile.jpg'
 import './About.css';
 const About = () => {
+
     return (
         <>
             <Navbar />
@@ -49,6 +50,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <MovingCard />
             </div>
             <Footer />
         </>
