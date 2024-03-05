@@ -50,6 +50,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                
                 <MovingCard />
             </div>
             <Footer />
