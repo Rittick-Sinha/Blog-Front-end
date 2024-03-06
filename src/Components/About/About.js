@@ -50,8 +50,11 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                
-                <MovingCard />
+                <div className="boxx3">
+                    <p>Some Testimonial</p>
+                    <p1>What People Say About Us</p1>
+                    <MovingCard />
+                </div>
             </div>
             <Footer />
         </>
