@@ -37,7 +37,7 @@
   overflow: hidden;
 }
 
-.nav-list ul li {
+/* .nav-list ul li {
   color: white;
   width: 13.67%;
   height: 50%;
@@ -53,26 +53,67 @@
   cursor: pointer;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
+} */
+.nav-list ul li {
+  width: 13.67%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
 }
 .nav-list ul li a {
   text-decoration: none;
   color: white;
+  padding-bottom: 2px;
 }
-
-.nav-list ul li:hover {
-  background-color: #fdb25d;
-  box-shadow: 0 0 20px #6fc5ff50;
-  transform: scale(1.05);
+/* .nav-list ul li a:active{
+  color: #315cfd;
+} */
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  border-bottom: 2px solid blue; 
 }
-
-.nav-list ul li:active {
-  background-color: #bb7a2f;
-  transition: all 0.25s;
-  -webkit-transition: all 0.25s;
-  box-shadow: none;
-  transform: scale(0.98);
+.nav-list ul li:hover,
+.nav-list ul li:focus {
+  color: #fff;
 }
-
+.nav-list ul li:hover:after,
+.nav-list ul li:focus:after {
+  width: 100%;
+  left: 0%;
+}
+.nav-list ul li:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(253, 178, 93);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
 .sticky {
   position: fixed;
   top: 0;
