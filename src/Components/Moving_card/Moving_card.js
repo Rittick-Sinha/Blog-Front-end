@@ -38,7 +38,7 @@ const MovingCard = () => {
                     arrows
                     autoPlay
                     autoPlaySpeed={1500}
-                    centerMode={false}
+                    centerMode
                     className=""
                     containerClass="container-with-dots"
                     dotListClass=""
@@ -61,22 +61,6 @@ const MovingCard = () => {
                     sliderClass=""
                     slidesToSlide={1}
                     swipeable>
-                    <div className="card">
-                        <div className="img">
-                            <img src={profile} alt="" />
-                        </div>
-                        <span>"Wow, your blog is incredibly insightful and well-written! I always look forward to reading your posts for inspiration and knowledge."</span>
-                        <div className="stroke"></div>
-                        <span1>Rittick Sinha</span1>
-                    </div>
-                    <div className="card">
-                        <div className="img">
-                            <img src={profile} alt="" />
-                        </div>
-                        <span>"Wow, your blog is incredibly insightful and well-written! I always look forward to reading your posts for inspiration and knowledge."</span>
-                        <div className="stroke"></div>
-                        <span1>Rittick Sinha</span1>
-                    </div>
                     <div className="card">
                         <div className="img">
                             <img src={profile} alt="" />
