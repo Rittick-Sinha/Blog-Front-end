@@ -1,54 +1,119 @@
-.blog-body{
-    width: 100vw;
-    height: 1100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.blog-body {
+  width: 100vw;
+  height: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.blog-body .boxx1{
-   width: 1150px;
-   height: 1000px;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   flex-wrap: wrap;
+.blog-body .boxx1 {
+  width: 1150px;
+  height: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.blog-body .boxx2{
-   width: 400px;
-   /* background-color: rgb(6, 223, 3); */
-   height: 950px;
-   display: flex;
-   flex-direction: column;
-   justify-content: first baseline;
-   align-items: center;
-   flex-wrap: wrap;
+.blog-body .boxx2 {
+  width: 400px;
+  /* background-color: rgb(6, 223, 3); */
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.blog-body .boxx2 .content .categories{
-   width: 200px;
-   height: 250px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-items: flex-start;
-   list-style: none;
-   margin-top: 15px;
+.blog-body .boxx2 .content .categories {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  list-style: none;
+  margin-top: 15px;
 }
-.blog-body .boxx2 .content .categories span{
-font-size: 24px;
-font-weight: 700;
-color: white;
-text-transform: uppercase;
-letter-spacing: 0.9px;
+.blog-body .boxx2 .content .categories span {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
 }
-.blog-body .boxx2 .content .categories span1{
-   font-size: 16px;
-   font-weight: 500;
-   color: #B3B3B3;
-   cursor: pointer;
-   transition: transform 0.2s;
+.blog-body .boxx2 .content .categories span1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #b3b3b3;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
-.blog-body .boxx2 .content .categories span1:hover{
-   transform: scale(1.1);
-   color: aqua;
-   cursor: pointer;
+.blog-body .boxx2 .content .categories span1:hover {
+  transform: scale(1.1);
+  color: aqua;
+  cursor: pointer;
+}
+
+.recent-post {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.recent-post .header {
+  width: 100%;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.recent-post .card {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.recent-post .card:hover {
+   transform: scale(1.05);
+}
+.recent-post .card .img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.recent-post .card .content {
+  width: 300px;
+  height: 80%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.recent-post .card .content span {
+  font-size: 14px;
+  font-weight: 700;
+  text-wrap: wrap;
+  margin-left: 5px;
+  color: #fff;
+}
+.recent-post .card .content span2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #b3b3b3;
+  margin-left: 5px;
+  text-wrap: wrap;
 }
