@@ -13,15 +13,16 @@ const Blog = () => {
                     <BlogCard />
                 </div>
                 <div className="boxx2">
-                    <SearchButton />
-                    <div className="categories">
-                        <ul>
-                            <li>Food</li>
-                            <li>Technology</li>
-                            <li>Travel</li>
-                            <li>Food</li>
-                            <li>Tourism</li>
-                        </ul>
+                    <div className="content">
+                        <SearchButton />
+                        <div className="categories">
+                            <span>Categories</span>
+                            <span1>Food</span1>
+                            <span1>Technology</span1>
+                            <span1>Travel</span1>
+                            <span1>Food</span1>
+                            <span1>Tourism</span1>
+                        </div>
                     </div>
                 </div>
             </div>
