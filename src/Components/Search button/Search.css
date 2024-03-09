@@ -52,7 +52,7 @@ label {
   left: var(--inline-padding-of-input);
 }
 /* svg -- size */
-svg {
+.search svg {
   width: 17px;
   display: block;
 }
