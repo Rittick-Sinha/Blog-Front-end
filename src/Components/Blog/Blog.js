@@ -14,7 +14,7 @@ const Blog = () => {
                 <div className="boxx1">
                     <BlogCard />
                 </div>
-                {/* <div className="boxx2">
+                <div className="boxx2">
                     <div className="content">
                         <SearchButton />
                         <div className="categories">
@@ -58,7 +58,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
             <Footer />
         </>
