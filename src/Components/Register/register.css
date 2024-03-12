@@ -1,0 +1,145 @@
+.register {
+    width: 420px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+  .register form {
+    width: 420px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .register form .form-container {
+    width: 420px;
+    height: 500px;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .register form .line {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(253, 178, 93);
+  }
+  .register form input {
+    width: 330px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: 2px solid #febf00;
+    background-color: #e2e2e2;
+    outline-offset: 3px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-left: 10px;
+    transition: 0.25s;
+  }
+  .register form .checkbox {
+    width: 20px;
+    height: 20px;
+    border: none;
+    font-size: 14px;
+    transition: 0.25s;
+    outline: none;
+  }
+  .register form input:focus {
+    outline-offset: 5px;
+    background-color: #fff;
+  }
+  .register form button {
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: 3px solid #febf00;
+    background-color: transparent;
+    color: #febf00;
+    outline-offset: 3px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.25s;
+  }
+  .register form button:hover {
+    background: #febf00;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .register form .content {
+    width: 340px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #e2e2e2;
+    cursor: pointer;
+  }
+  .register form span2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #e2e2e2;
+    cursor: pointer;
+  }
+  .register form .content1 {
+    width: 340px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+  }
+  .register form .content1 .sub-content1 {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .register form .content1 .sub-content2 {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #fff;
+  }
+  .register form .content2 {
+    width: 340px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e2e2e2;
+    cursor: pointer;
+    padding-bottom: 10px;
+  }
+  
