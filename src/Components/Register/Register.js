@@ -11,7 +11,7 @@ const Register = () => {
                             <span>Register</span>
                         </div>
                         <div className="sub-content2">
-                            <RxCross2 />
+                            {/* <RxCross2 /> */}
                         </div>
                     </div>
                     <div className="form-container">

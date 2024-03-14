@@ -1,5 +1,6 @@
 import React from 'react';
 import { RxCross2 } from "react-icons/rx";
+import { Modal } from 'react-responsive-modal'
 import './login.css'
 const Login = () => {
     return (
@@ -11,7 +12,7 @@ const Login = () => {
                             <span>sign-in</span>
                         </div>
                         <div className="sub-content2">
-                            <RxCross2 />
+                            {/* <RxCross2 /> */}
                         </div>
                     </div>
                     <div className="form-container">

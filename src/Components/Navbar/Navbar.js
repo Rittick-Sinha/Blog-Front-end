@@ -4,8 +4,9 @@ import { NavLink } from "react-router-dom";
 import Login from '../Login/Login';
 import Register from '../Register/Register';
 import logo from '../assests/brand-logo-white.png'
-import { Modal } from 'react-responsive-modal'
+import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
+import './style1.css'
 
 
 const Navbar = () => {
