@@ -32,7 +32,7 @@ const Login = () => {
                         <div className='line'></div>
                     </div>
                     <div className="content2">
-                        <span2>Already have an account? <b> Sign up</b></span2>
+                        <span2>Don't have an account? <b>Register now</b></span2>
                     </div>
 
                 </form>
