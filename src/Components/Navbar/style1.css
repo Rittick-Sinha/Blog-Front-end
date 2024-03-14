@@ -13,4 +13,5 @@
     position: relative;
     overflow-y: auto;
     background-color: transparent;
+    box-shadow: none;
   }
