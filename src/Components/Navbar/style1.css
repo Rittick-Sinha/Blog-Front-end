@@ -12,4 +12,5 @@
     padding: 1.2rem;
     position: relative;
     overflow-y: auto;
+    background-color: transparent;
   }
