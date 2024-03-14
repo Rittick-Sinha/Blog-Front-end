@@ -3,3 +3,13 @@
     fill: white;
     padding: 23px 31px 0px 0px;
   }
+  .react-responsive-modal-modal {
+    max-width: 800px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin: 1.2rem;
+    padding: 1.2rem;
+    position: relative;
+    overflow-y: auto;
+  }
