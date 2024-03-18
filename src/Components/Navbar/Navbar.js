@@ -6,11 +6,18 @@ import Register from '../Register/Register';
 import logo from '../assests/brand-logo-white.png'
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
+import { LuAlignJustify } from "react-icons/lu";
+import { RxCross2 } from "react-icons/rx";
 import './style1.css'
 
 
 const Navbar = () => {
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
     const [loginvisible, setloginVisible] = useState(false)
     const [registervisible, setregisterVisible] = useState(false)
 
@@ -21,7 +28,10 @@ const Navbar = () => {
                     <img src={logo} alt="" width="150px" />
                 </div>
                 <div className="nav-list">
-                    <ul>
+                    <button className="toggle-button" onClick={toggleMenu}>
+                        {isOpen ? <LuAlignJustify fontSize={'24px'} /> : <RxCross2 fontSize={'24px'} />}
+                    </button>
+                    {isOpen && (<ul>
                         <li><NavLink to="/">HOME</NavLink></li>
                         <li><NavLink to="/blog">BLOG</NavLink></li>
                         <li><NavLink to="/about">ABOUT</NavLink></li>
@@ -38,7 +48,7 @@ const Navbar = () => {
                             center>
                             <Register />
                         </Modal>
-                    </ul>
+                    </ul>)}
                 </div>
             </div >
         </>
